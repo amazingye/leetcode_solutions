@@ -22,3 +22,11 @@ class Solution(object):
         """
         
         return len([x for x in nums if x<target])
+
+    
+#test
+s = Solution()
+nums = [1,3,5,6]
+target =5
+a = s.searchInsert(nums,target)
+print(a)
