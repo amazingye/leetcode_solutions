@@ -23,4 +23,3 @@ low = 0
 high = len(a)-1
 quickSort(a,low,high)
 print(a)
-
